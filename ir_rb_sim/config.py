@@ -1,11 +1,3 @@
-"""
-Central configuration for the IR range-and-bearing simulator.
-
-All simulator parameters are defined here so they can be tuned during
-validation against the research paper. Values marked as ASSUMED are
-design choices where the paper does not provide exact values.
-"""
-
 from dataclasses import dataclass, field
 from typing import List
 
