@@ -1,0 +1,46 @@
+Folder PATH listing
+Volume serial number is 0000001B 6603:C7BE
+C:.
+¦   .gitignore
+¦   README.md
+¦   tree.txt
+¦   
++---.pytest_cache
+¦   ¦   .gitignore
+¦   ¦   CACHEDIR.TAG
+¦   ¦   README.md
+¦   ¦   
+¦   +---v
+¦       +---cache
+¦               lastfailed
+¦               nodeids
+¦               
++---ir_rb_sim
+¦   ¦   config.py
+¦   ¦   geometry.py
+¦   ¦   sensor.py
+¦   ¦   __init__.py
+¦   ¦   
+¦   +---types
+¦   ¦   ¦   geometry_types.py
+¦   ¦   ¦   phase_types.py
+¦   ¦   ¦   __init__.py
+¦   ¦   ¦   
+¦   ¦   +---__pycache__
+¦   ¦           geometry_types.cpython-314.pyc
+¦   ¦           phase_types.cpython-314.pyc
+¦   ¦           __init__.cpython-314.pyc
+¦   ¦           
+¦   +---__pycache__
+¦           config.cpython-314.pyc
+¦           geometry.cpython-314.pyc
+¦           sensor.cpython-314.pyc
+¦           types.cpython-314.pyc
+¦           __init__.cpython-314.pyc
+¦           
++---tests
+    ¦   test_sensor.py
+    ¦   
+    +---__pycache__
+            test_sensor.cpython-314-pytest-9.1.1.pyc
+            
