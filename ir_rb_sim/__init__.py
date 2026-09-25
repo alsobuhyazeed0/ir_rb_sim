@@ -4,6 +4,12 @@ from .sensor import SensorUnit, build_sensor_ring, visible_units
 from .types.phase_types import RoundPhase
 from .robot import Robot
 from .intensity import IntensityCurve, build_intensity_curves
+from .ranging import (
+    DistanceLevel,
+    RangingResult,
+    binary_search_range,
+    make_ideal_detect_fn,
+)
 
 __all__ = [
     "Config",
@@ -22,7 +28,11 @@ __all__ = [
     "visible_units",
     "Robot",
     "IntensityCurve",
-    "build_intensity_curves"
+    "build_intensity_curves",
+    "DistanceLevel",
+    "RangingResult",
+    "binary_search_range",
+    "make_ideal_detect_fn",
 ]
 
 __version__ = "0.1.0"
