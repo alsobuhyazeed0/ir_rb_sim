@@ -3,6 +3,7 @@ from .geometry import Pose, angular_diff_deg, normalize_angle_deg, relative_bear
 from .sensor import SensorUnit, build_sensor_ring, visible_units
 from .types.phase_types import RoundPhase
 from .robot import Robot
+from .intensity import IntensityCurve, build_intensity_curves
 
 __all__ = [
     "Config",
@@ -19,7 +20,9 @@ __all__ = [
     "SensorUnit",
     "build_sensor_ring",
     "visible_units",
-    "Robot"
+    "Robot",
+    "IntensityCurve",
+    "build_intensity_curves"
 ]
 
 __version__ = "0.1.0"
