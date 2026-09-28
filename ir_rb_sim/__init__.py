@@ -11,6 +11,7 @@ from .ranging import (
     make_ideal_detect_fn,
 )
 from .calibration import CalibrationTable, build_calibration_table
+from .noise import NoiseModel, DEFAULT_NOISE_MODEL
 
 
 __all__ = [
@@ -37,6 +38,8 @@ __all__ = [
     "make_ideal_detect_fn",
     "CalibrationTable",
     "build_calibration_table",
+    "NoiseModel",
+    "DEFAULT_NOISE_MODEL"
 ]
 
 __version__ = "0.1.0"
