@@ -10,6 +10,8 @@ from .ranging import (
     binary_search_range,
     make_ideal_detect_fn,
 )
+from .calibration import CalibrationTable, build_calibration_table
+
 
 __all__ = [
     "Config",
@@ -33,6 +35,8 @@ __all__ = [
     "RangingResult",
     "binary_search_range",
     "make_ideal_detect_fn",
+    "CalibrationTable",
+    "build_calibration_table",
 ]
 
 __version__ = "0.1.0"
