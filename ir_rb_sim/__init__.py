@@ -12,6 +12,7 @@ from .ranging import (
 )
 from .calibration import CalibrationTable, build_calibration_table
 from .noise import NoiseModel, DEFAULT_NOISE_MODEL
+from .scheduler import CycleResult, run_sensing_cycle
 
 
 __all__ = [
@@ -39,7 +40,9 @@ __all__ = [
     "CalibrationTable",
     "build_calibration_table",
     "NoiseModel",
-    "DEFAULT_NOISE_MODEL"
+    "DEFAULT_NOISE_MODEL",
+    "CycleResult",
+    "run_sensing_cycle"
 ]
 
 __version__ = "0.1.0"
