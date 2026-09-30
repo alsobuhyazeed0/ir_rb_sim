@@ -20,6 +20,9 @@ class Config:
         default_factory=lambda: [6.0, 10.0, 14.0, 18.0, 22.0, 26.0, 30.0]
     )
 
+    # ASSUMED: paper doesn't publish trial count per calibration point 
+    NUM_CALIBRATION_TRIALS: int = 11
+
     CYCLE_DURATION_MS: float = 100.0
     PHASE1_DURATION_MS: float = 50.0
     PHASE2_DURATION_MS: float = 50.0
