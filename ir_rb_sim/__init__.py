@@ -13,6 +13,7 @@ from .ranging import (
 from .calibration import CalibrationTable, build_calibration_table
 from .noise import NoiseModel, DEFAULT_NOISE_MODEL
 from .scheduler import CycleResult, run_sensing_cycle
+from .world import World, WorldRobot
 
 
 __all__ = [
@@ -42,7 +43,9 @@ __all__ = [
     "NoiseModel",
     "DEFAULT_NOISE_MODEL",
     "CycleResult",
-    "run_sensing_cycle"
+    "run_sensing_cycle",
+    "World",
+    "WorldRobot"
 ]
 
 __version__ = "0.1.0"
